@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "maid_adventure:coffee"
+    }
+  },
+  "result": {
+  "item": "maid_adventure:maid_workstation"
+  }
+}

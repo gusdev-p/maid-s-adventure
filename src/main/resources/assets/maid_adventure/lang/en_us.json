@@ -1,0 +1,8 @@
+{
+  "item.maid_adventure.coffee" : "Coffee",
+  "item.maid_adventure.coffee_with_blessing" : "Maid's Blessing Coffee",
+  "creativemod.maid_tab": "Maid's Adventure",
+  "block.maid_adventure.maid_workstation": "Maid Workstation",
+  "maid_workstation.error": "Only a true maid can make her own coffee.",
+  "block.maid_adventure.coffee_maker": "Coffee Maker"
+}
