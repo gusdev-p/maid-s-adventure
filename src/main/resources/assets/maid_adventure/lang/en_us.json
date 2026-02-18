@@ -9,8 +9,13 @@
   "block.maid_adventure.pot_with_sugar": "Sugar Bowl",
   "block.maid_adventure.pot_without_sugar": "Bowl",
   "item.maid_adventure.spoon_item": "Spoon",
-  "advancement.maid_adventure.root.title": "Maid's Adventure",
-  "advancement.maid_adventure.root.description": "The path to becoming a true maid",
-  "advancement.maid_adventure.drink_coffee.title": "The taste of love <3",
-  "advancement.maid_adventure.drink_coffee.description": "Drink the Maid's coffee."
+  "advancements.maid_adventure.root.title": "Maid's Adventure",
+  "advancements.maid_adventure.root.description": "The path to becoming a true maid",
+  "advancements.maid_adventure.drink_coffee.title": "The taste of love <3",
+  "advancements.maid_adventure.drink_coffee.description": "Drink the Maid's coffee.",
+  "advancements.maid_adventure.get_bless_coffee.title": "Blessed",
+  "advancements.maid_adventure.get_bless_coffee.description": "Get the Maid's blessing coffee.",
+  "entity.minecraft.villager.maid_adventure.maidprofession": "Maid",
+  "advancements.maid_adventure.trade_with_maid.title": "First Impressions!",
+  "advancements.maid_adventure.trade_with_maid.description": "Make a trade with the maid."
 }

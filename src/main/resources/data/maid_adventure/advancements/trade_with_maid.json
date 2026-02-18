@@ -1,0 +1,32 @@
+{
+  "parent": "maid_adventure:root",
+  "display": {
+    "icon": {
+      "item": "maid_adventure:coffee"
+    },
+    "title": {
+      "translate": "advancements.maid_adventure.trade_with_maid.title"
+    },
+    "description": {
+      "translate": "advancements.maid_adventure.trade_with_maid.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "trade_with_maid": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "type_specific": {
+            "type": "minecraft:villager",
+            "profession": "maid_adventure:maidprofession"
+          }
+        }
+      }
+    }
+  }
+}

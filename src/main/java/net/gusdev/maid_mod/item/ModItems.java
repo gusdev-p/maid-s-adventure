@@ -11,6 +11,8 @@ import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import javax.swing.*;
+
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, MaidMod.MOD_ID);
@@ -38,6 +40,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> SPOON = ITEMS.register("spoon_item",
             () -> new Item(new Item.Properties().stacksTo(1)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

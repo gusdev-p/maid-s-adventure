@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.gusdev.maid_mod.block.ModBlocks;
 import net.gusdev.maid_mod.item.ModCreativeModeTab;
 import net.gusdev.maid_mod.item.ModItems;
+import net.gusdev.maid_mod.villager.ModVillagers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -35,6 +36,8 @@ public class MaidMod
         ModItems.register(modEventBus);
 
         ModBlocks.register(modEventBus);
+
+        ModVillagers.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

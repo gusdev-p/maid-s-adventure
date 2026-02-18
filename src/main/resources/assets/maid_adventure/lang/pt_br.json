@@ -12,5 +12,10 @@
   "advancements.maid_adventure.drink_coffee.title": "Gostinho do Amor <3",
   "advancements.maid_adventure.drink_coffee.description": "Beba o café da maid.",
   "advancements.maid_adventure.root.title": "A Aventura da Maid",
-  "advancements.maid_adventure.root.description": "O caminho para se tornar uma verdadeira maid"
+  "advancements.maid_adventure.root.description": "O caminho para se tornar uma verdadeira maid",
+  "advancements.maid_adventure.get_bless_coffee.title": "Abençoado",
+  "advancements.maid_adventure.get_bless_coffee.description": "Consiga o Café abençoado pela maid.",
+  "entity.minecraft.villager.maid_adventure.maidprofession": "Maid",
+  "advancements.maid_adventure.trade_with_maid.title": "Primeiras Impressões!",
+  "advancements.maid_adventure.trade_with_maid.description": "Faça uma troca com a maid."
 }

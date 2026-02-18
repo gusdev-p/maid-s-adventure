@@ -48,12 +48,14 @@ public class ModBlocks {
     public static final RegistryObject<Block> POT_WITHOUT_SUGAR = registerBlock("pot_without_sugar",
             () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.QUARTZ_BLOCK)
+                    .noOcclusion()
                     .instabreak()
             ));
 
     public static final RegistryObject<Block> POT_WITH_SUGAR = registerBlock("pot_with_sugar",
             () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.QUARTZ_BLOCK)
+                    .noOcclusion()
                     .instabreak()
             ));
 
