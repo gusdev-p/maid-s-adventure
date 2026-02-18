@@ -11,14 +11,14 @@ import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-import java.rmi.registry.Registry;
-
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, MaidMod.MOD_ID);
 
     public static final RegistryObject<Item> COFFEE = ITEMS.register("coffee",
-            () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
+            () -> new Item(new Item.Properties()
+                    .stacksTo(1)
+                    .food(new FoodProperties.Builder()
                     .nutrition(2)
                     .saturationMod(0.3f)
                     .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 100, 1), 1.0f)
@@ -26,7 +26,18 @@ public class ModItems {
             )));
 
     public static final RegistryObject<Item> COFFEE_WITH_BLESS = ITEMS.register("coffee_with_blessing",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties()
+                    .stacksTo(1)
+                    .food(new FoodProperties.Builder()
+                    .nutrition(5)
+                    .saturationMod(0.5f)
+                    .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 100, 1), 1.0f)
+                    .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 100, 1), 1.0f)
+                    .build()
+            )));
+
+    public static final RegistryObject<Item> SPOON = ITEMS.register("spoon_item",
+            () -> new Item(new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

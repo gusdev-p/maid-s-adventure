@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:sugar" },
+    { "item": "maid_adventure:pot_without_sugar" }
+  ],
+  "result": {
+    "item": "maid_adventure:pot_with_sugar"
+  }
+}

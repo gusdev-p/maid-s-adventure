@@ -4,5 +4,13 @@
   "creativemod.maid_tab": "Maid's Adventure",
   "block.maid_adventure.maid_workstation": "Maid Workstation",
   "maid_workstation.error": "Only a true maid can make her own coffee.",
-  "block.maid_adventure.coffee_maker": "Coffee Maker"
+  "block.maid_adventure.coffee_maker": "Coffee Maker",
+  "block.maid_adventure.table": "Table",
+  "block.maid_adventure.pot_with_sugar": "Sugar Bowl",
+  "block.maid_adventure.pot_without_sugar": "Bowl",
+  "item.maid_adventure.spoon_item": "Spoon",
+  "advancement.maid_adventure.root.title": "Maid's Adventure",
+  "advancement.maid_adventure.root.description": "The path to becoming a true maid",
+  "advancement.maid_adventure.drink_coffee.title": "The taste of love <3",
+  "advancement.maid_adventure.drink_coffee.description": "Drink the Maid's coffee."
 }

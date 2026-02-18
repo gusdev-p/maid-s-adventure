@@ -1,0 +1,30 @@
+{
+  "parent": "maid_adventure:root",
+  "display": {
+    "icon": {
+      "item": "maid_adventure:coffee"
+    },
+    "title": {
+      "translate": "advancements.maid_adventure.drink_coffee.title"
+    },
+    "description": {
+      "translate": "advancements.maid_adventure.drink_coffee.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_coffee": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "items": [
+          {
+            "items": ["maid_adventure:coffee"]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "maid_adventure:coffee_with_blessing"
+    },
+    "title": {
+      "translate": "advancements.maid_adventure.root.title"
+    },
+    "description": {
+      "translate": "advancements.maid_adventure.root.description"
+    },
+    "background": "minecraft:textures/block/pink_wool.png",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

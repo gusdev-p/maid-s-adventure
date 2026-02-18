@@ -22,6 +22,10 @@ public class ModCreativeModeTab {
                         output.accept(ModItems.COFFEE_WITH_BLESS.get());
                         output.accept(ModBlocks.MAID_WORKSTATION.get());
                         output.accept(ModBlocks.COFFEE_MAKER.get());
+                        output.accept(ModBlocks.TABLE.get());
+                        output.accept(ModBlocks.POT_WITH_SUGAR.get());
+                        output.accept(ModBlocks.POT_WITHOUT_SUGAR.get());
+                        output.accept(ModItems.SPOON.get());
                     }))
                     .build());
 

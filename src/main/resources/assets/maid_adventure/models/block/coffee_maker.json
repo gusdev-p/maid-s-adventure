@@ -190,6 +190,43 @@
 			}
 		}
 	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-0.25, 3, -2.5],
+			"scale": [0.72, 0.7, 0.71]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0.25, 3, -2.5],
+			"scale": [0.72, 0.7, 0.71]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, 0, -180],
+			"translation": [0, 5, 0],
+			"scale": [0.79, 0.76, 0.77]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, 0, -180],
+			"translation": [0, 5, 0],
+			"scale": [0.79, 0.76, 0.77]
+		},
+		"ground": {
+			"translation": [0, 2.75, 0],
+			"scale": [0.79, 0.79, 0.78]
+		},
+		"gui": {
+			"rotation": [-180, 46, -180],
+			"translation": [0, 1.75, 0]
+		},
+		"head": {
+			"translation": [-0.5, 14.5, 0]
+		},
+		"fixed": {
+			"translation": [-0.75, 2.25, -2.25]
+		},
+		"on_shelf": {
+			"rotation": [-180, 0, -180]
+		}
+	},
 	"groups": [
 		{
 			"name": "cup",

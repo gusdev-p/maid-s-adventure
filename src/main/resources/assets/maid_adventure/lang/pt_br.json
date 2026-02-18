@@ -4,5 +4,13 @@
   "creativemod.maid_tab": "A Aventura da Maid",
   "block.maid_adventure.maid_workstation": "Bancada da Maid",
   "maid_workstation.error": "Somente uma verdadeira maid pode fabricar o próprio café.",
-  "block.maid_adventure.coffee_maker": "Máquina de Café"
+  "block.maid_adventure.coffee_maker": "Máquina de Café",
+  "block.maid_adventure.table": "Bancada",
+  "block.maid_adventure.pot_with_sugar": "Pote com Açúcar",
+  "block.maid_adventure.pot_without_sugar": "Pote",
+  "item.maid_adventure.spoon_item": "Colher",
+  "advancements.maid_adventure.drink_coffee.title": "Gostinho do Amor <3",
+  "advancements.maid_adventure.drink_coffee.description": "Beba o café da maid.",
+  "advancements.maid_adventure.root.title": "A Aventura da Maid",
+  "advancements.maid_adventure.root.description": "O caminho para se tornar uma verdadeira maid"
 }

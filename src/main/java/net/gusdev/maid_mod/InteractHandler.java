@@ -21,6 +21,13 @@ public class InteractHandler {
         Block clickedBlock = event.getLevel().getBlockState(event.getPos()).getBlock();
 
         if (clickedBlock == ModBlocks.MAID_WORKSTATION.get()) {
+            event.getEntity().swing(event.getHand(), true);
+            event.getEntity().sendSystemMessage(
+                    Component.translatable("maid_workstation.error")
+            );
+
+        } else if (clickedBlock == ModBlocks.COFFEE_MAKER.get()) {
+            event.getEntity().swing(event.getHand(), true);
             event.getEntity().sendSystemMessage(
                     Component.translatable("maid_workstation.error")
             );

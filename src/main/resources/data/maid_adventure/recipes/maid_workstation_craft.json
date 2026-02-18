@@ -2,16 +2,22 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "###",
-    "###",
-    "###"
+    " AC",
+    " B ",
+    "   "
   ],
-  "key": {
-    "#": {
-      "item": "maid_adventure:coffee"
+  "key  ": {
+    "A": {
+      "item": "maid_adventure:coffee_maker"
+    },
+    "B": {
+      "item": "maid_adventure:table"
+    },
+    "C": {
+      "item": "maid_adventure:pot_with_sugar"
     }
   },
   "result": {
-  "item": "maid_adventure:maid_workstation"
+    "item": "maid_adventure:maid_workstation"
   }
 }
